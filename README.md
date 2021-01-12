@@ -9,6 +9,7 @@ The useStateInCustomProperties hook takes 2 arguments:
 2. An object containing the state names and values you'd like piped in as CSS variables. (Object)
 
 ```
+import React, { useState } from "react";
 import useStateInCustomProperties from "use-state-in-custom-properties";
 
 const Example = () => {
@@ -24,7 +25,7 @@ const Example = () => {
 	<button onClick={() => setActiveColor("blue")}>
 		Change to blue
 	</button>
-    <CustomPropertiesWrapper>
+    </CustomPropertiesWrapper>
   )
 }
 ```
